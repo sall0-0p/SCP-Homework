@@ -1,0 +1,21 @@
+
+.main-logo {
+    display: block;
+    background: url("../assets/img/logo_white.png");
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.warning {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 50%;
+
+    color: white;
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace
+}
