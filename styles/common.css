@@ -2,10 +2,42 @@ body {
     background-color: #1a1919;
 }
 
-.title {
+h1 {
+    font-weight: 600;
+    font-size: 43px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    border: white solid 2px;
+    background-color:#1a1919;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.title {
     position: relative;
     width: 50%;
 
@@ -15,12 +47,8 @@ body {
     font-family: 'Courier New', Courier, monospace
 }
 
-.text {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.paragraph {
     position: relative;
-    width: 40%;
 
     color: white;
     text-align: center;
@@ -29,12 +57,9 @@ body {
 }
 
 .button-generic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     position: relative;
 
-    width: 30%;
+    width: 150px;
     height: 50px;
 
     background-color: #1a1919;
@@ -43,7 +68,6 @@ body {
     border-style: solid;
 
     color: white;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: bold;
 }
@@ -53,4 +77,14 @@ body {
     border-color: white;
     border-radius: 3px;
     border-style: solid;
+}
+
+.warning {
+    position: relative;
+    width: 50%;
+
+    color: #f2c939;
+    text-align: center;
+
+    font-family: 'Courier New', Courier, monospace
 }

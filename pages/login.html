@@ -4,16 +4,44 @@
     <head>
         <!-- Some Customisation -->
         <title>SCP Foundation: Login</title>
-        <link rel="icon" type="image/x-icon" href="../images/logo.png"/>
+        <link rel="icon" type="image/x-icon" href="..assets/img/logo.png"/>
 
-        <!-- Link Classes -->
-        <link rel="stylesheet" href="../classes/common.css">
-        <link rel="stylesheet" href="../classes/login.css">
+        <!-- Link styles -->
+        <link rel="stylesheet" href="../styles/reset.css">
+        <link rel="stylesheet" href="../styles/common.css">
+        <link rel="stylesheet" href="../styles/login.css">
     </head>
 
     <body>
-        <img class="main-logo" src="../images/logo_white.png"/>
-        
-        <h1 class="title">Enter Creditals</h1>
+        <header>
+            <div class="main-logo"></div>
+            <h1 class="centered title enter-creditals">Enter Creditals</h1>
+        </header>
+
+        <main>
+            <div class="centered login-container login-flex">
+                <div class="input-container">
+                    <label class="centered input-label">Enter login: </label>
+                    <input type="text" class="centered input-login"> 
+
+                    <label class="centered input-label">Enter password: </label>
+                    <input type="password" class="centered input-password"> 
+                </div>
+
+                <div class="buttons-flex">
+                    <a href="../pages/index.html">
+                        <button class="button-generic button-back">⇦</button>
+                    </a>
+
+                    <a href="https://scp-wiki.wikidot.com/">
+                        <button class="button-generic button-confirm">Confirm</button>
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+
+        </footer>
     </body>
 </html>

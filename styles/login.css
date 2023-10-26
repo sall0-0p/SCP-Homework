@@ -1,0 +1,68 @@
+.main-logo {
+    display: block;
+    background: center / contain no-repeat url("../assets/img/logo_white.png");
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 15vh;
+    width: 50%;
+}
+
+.enter-creditals {
+    margin-top: 20px;
+    padding-left: 8px;
+    font-size: 40px
+}
+
+.login-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    height: 99% 
+}
+
+.input-login {
+    width: 80%;
+    height: 3vh;
+    margin-top: 5px; 
+}
+
+.input-password {
+    width: 80%;
+    height: 3vh;
+    margin-top: 5px; 
+}
+
+.input-label {
+    color: white;
+    width: 80%;
+    margin-top: 40px;
+}
+
+.buttons-flex {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 97%;
+    margin-top: -57px;
+}
+
+.button-confirm {
+    margin-left: 11px;
+    width: 200px
+}
+
+.button-back {
+    width: 50px
+}
+
+.login-container {
+    margin-top: 40px;
+
+    width: 30%;
+    height: 50vh;
+
+    border: white solid;
+}
